@@ -1,0 +1,33 @@
+.fadeIn {
+  opacity: 0; /* Initially hide the element */
+  animation: fadeInRightToLeft 2s ease forwards; /* Apply fade-in animation */
+}
+
+@keyframes fadeInRightToLeft {
+  0% {
+    opacity: 0; /* Start with opacity 0 */
+    transform: translateX(20%); /* Start from the right side */
+  }
+  100% {
+    opacity: 1; /* Fade in with full opacity */
+    transform: translateX(0); /* Move to the left side */
+  }
+}
+
+.fadeUp{
+  opacity: 0;
+  animation: fadeInTopToBottom 2s ease-in forwards;
+}
+
+@keyframes fadeInTopToBottom {
+  0% {opacity: 0;
+      transform: translateX(0%);
+    }
+  100%{
+    opacity: 1;
+      transform: translateY(0%)
+  }
+}
+.barder{
+  border-top: 1px solid black ;
+}

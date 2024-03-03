@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.input{
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    outline: none;
+}
+.input-message{
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: transparent;
+}
+.input-message:hover{
+    border-bottom: 2px solid rgb(215, 58, 178);
+}
+.input:hover{
+    border-bottom: 2px solid brown;
+}
+.h2{
+    font-family: "Poppins", sans-serif;
+}
+/* .image{
+    background-image: url(../../assets/kelly-sikkema--q69Jfp6MtM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 95vh;
+}
+h2{
+    color: white;
+} */
+.submit{
+    border: 1px solid black;
+    padding: .2rem 2rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    color:linear-gradient(to left, black 10%, brown 20%);
+}
+.submit:hover{
+    background: brown;
+    color: white;
+    border: white;
+    cursor: pointer;
+}
+
+@media ( max-width: 390px ){
+    .submit{
+        /* margin-left: 8rem; */
+    }
+
+    .input{
+        /* width: 20rem; */
+    }
+    .input-message{
+        /* width: 20rem; */
+    }
+}
